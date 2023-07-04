@@ -54,6 +54,8 @@ if(lowerCaseChoice === false && specialCharactersChoice === false && upperCaseCh
   return null
 }
 
+
+//creating if statements to concat the arrays together if the "ok" button is selected when the confirmation window pops up
 var userChoices = []
 
 if(upperCaseChoice === true) {
