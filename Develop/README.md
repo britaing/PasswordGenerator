@@ -6,3 +6,6 @@ This password generator will be excellent to create secure passwords that cannot
 I learned how to go about piecing all the variables and pieces of JavaScript together that I have learned so far. 
 For Loops, variables, if statements, methods...were obviously very important and are a foundation of what is to come.
 
+
+
+Link to site: https://britaing.github.io/PasswordGenerator/
