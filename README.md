@@ -9,3 +9,5 @@ For Loops, variables, if statements, methods...were obviously very important and
 
 
 Link to site: https://britaing.github.io/PasswordGenerator/
+
+![alt text](Assets/deployedSite.PNG)
