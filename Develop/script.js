@@ -56,6 +56,9 @@ if(lowerCaseChoice === false && specialCharactersChoice === false && upperCaseCh
 
 var userChoices = []
 
+if(upperCaseChoice === true) {
+  userChoices = userChoices.concat(upperCaseLetters)
+}
 if(lowerCaseChoice ===true){
  userChoices = userChoices.concat(lowerCaseLetters)
 }
@@ -66,6 +69,15 @@ if (specialCharactersChoice === true){
 if(numbersChoice === true) {
   userChoices = userChoices.concat(numbers)
 }
+console.log(userChoices)
+
+var passwordResult = "";
+
+for (var i = 0; i < characterLength; i++) {
+  var randomIdx = Math.floor(Math.random() * userChoices.length)
+  passwordResult = passwordResult + userChoices[randomIdx];
+}
+
 
 
 // WHEN all prompts are answered
@@ -74,7 +86,7 @@ if(numbersChoice === true) {
 // WHEN the password is generated
 // THEN the password is either displayed in an alert or written to the page
 //  console.log(b);
-return 'Hi Britain'
+return passwordResult
 }
 
 // Write password to the #password input
